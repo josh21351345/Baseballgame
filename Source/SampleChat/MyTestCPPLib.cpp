@@ -3,9 +3,6 @@
 
 #include "MyTestCPPLib.h"
 
-TMap<FString, int32> UMyTestCPPLib::UserAttempts;
-FString UMyTestCPPLib::Answer;
-
 FString UMyTestCPPLib::GetMyFirstCPP(FString UserID, FString Msg)
 {
     return FString::Printf(TEXT("%s CPP lib in BP"), *Msg);
